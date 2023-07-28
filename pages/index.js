@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import Link from 'next/link';
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +18,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
+            <Link href="/other">Go other page</Link>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>

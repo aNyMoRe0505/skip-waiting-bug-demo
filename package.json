@@ -1,5 +1,5 @@
 {
-  "name": "skip-waiting-demo",
+  "name": "skip-waiting-bug-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^9.4.0",
     "next": "13.4.12",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^6.0.3"
   }
 }
